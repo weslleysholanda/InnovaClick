@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap');
+
+/* Geral*/
+.site {
+    width: 100%;
+    max-width: 1200px;
+
+}
+
+
+hr {
+    width: 80px;
+    height: 4px;
+    background: #F27405;
+    border: none;
+}
+
+h2 {
+    line-height: 70px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    /*deixa a font em negrito*/
+    font-family: "Lobster", sans-serif;
+}
+
+h3 {
+    font-size: 25pt;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: "Lobster", sans-serif;
+}
+
+h4 {
+    font-family: "Lobster", sans-serif;
+}
+
+/* ESPECÍFICO */
+
+header {
+    width: 100%;
+    background: #3A5D8C30;
+
+}
+
+header button i {
+    display: none;
+}
+
+header .site {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    /*1° valor (superior e inferior) /2° valor (esquerda direita)*/
+
+}
+
+header h1 {
+    width: 172px;
+    height: 100px;
+    background: url(../img/logo1.png);
+    background-size: 100% 100%;
+    text-indent: -9999px;
+    margin: 5px 0;
+}
+
+header ul {
+    display: flex;
+}
+
+header ul li {
+    font-size: 20pt;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 5px 10px 5px;
+    text-transform: uppercase;
+    /*Transforma todas as letras em MAIÚSCULA*/
+    font-family: "Anton", sans-serif;
+}
+
+header ul li a {
+    color: #3A5D8C;
+}
+
+header ul li a:hover {
+    /*Quando passar o mouse por cima*/
+    color: #F27405;
+
+}
+
+header ul li.ativo {
+    border-bottom: #F27405 solid 3px;
+
+}
+
+header button {
+    width: 80px;
+    height: 80px;
+    background: transparent;
+    border: 0;
+}
+
+header .abrirMenu,
+header .fecharMenu {
+    display: none;
+}
+
+header nav button:last-child {
+    display: none;
+}
+
+
+header button i {
+    font-size: 40px;
+    color: #3A5D8C;
+}
+
+header button i:hover {
+    color: #F27405;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+/* CONTEÚDO */
+.banner {
+    width: 100%;
+    height: 620px;
+}
+
+.banner div {
+    height: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner h2 {
+    position: relative;
+    top: -60%;
+    line-height: 100px;
+    color: #3A5D8C;
+    font-size: 50pt;
+    letter-spacing: 10px;
+}
+
+.banner .slick-prev {
+    left: 25px;
+    z-index: 1;
+}
+
+.banner .slick-next {
+    right: 25px;
+    z-index: 1;
+}
+
+.banner .slick-prev:before,
+.banner .slick-next:before {
+    font-size: 35px;
+    opacity: 1;
+    color: #F27405;
+}
+
+.banner .slick-dots {
+    bottom: 25px;
+}
+
+.banner .slick-dots li button:before {
+    font-size: 10px;
+    color: #F27405;
+}
+
+
+/*Início Serviço*/
+.servico {
+    padding: 40px 0;
+    background: #3A5D8C50;
+}
+
+.servico .site {
+    margin: 0 auto;
+}
+
+
+.servico .conteudoServico {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.servico .conteudoServico div {
+    width: 370px;
+    height: 580px;
+    border: #F27405 solid 2px;
+    background: #F2870520;
+}
+
+.servico img {
+    width: 100%;
+    height: 240px;
+}
+
+
+.servico p {
+    margin: 20px;
+    font-size: 13pt;
+    text-align: justify;
+    font-family: "anton";
+}
+
+/* Sobre */
+.sobre {
+    height: 730px;
+}
+
+.sobre .site {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    ;
+    height: 100%;
+    align-items: center;
+}
+
+.sobre img {
+    width: 50%;
+    height: 100%;
+}
+
+.sobre p {
+    margin: 50px;
+    font-size: 18pt;
+    line-height: 25px;
+}
+
+.equipe {
+    padding: 40px 0;
+    background-color: rgb(193, 216, 228);
+    width: 100%;
+}
+
+.equipe .site {
+    margin: 0 auto;
+}
+
+.equipe .site .conteudoEquipe .itemEquipe>div:hover {
+    background-color: #3A5D8C10;
+    border-radius: 50px;
+}
+
+.conteudoEquipe {
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemEquipe div {
+    width: 532px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.itemEquipe div div {
+    width: 232px;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.equipe img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 0 0 70px 0;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+/* RODAPÉ */
+
+footer {
+    background: #3A5D8C;
+    padding-top: 40px;
+}
+
+footer .site {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+footer div {
+    width: 50%;
+
+}
+
+footer div i {
+    font-size: 40px;
+    margin: 0 13px;
+    color: #fff;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12pt;
+    text-transform: uppercase;
+}
+
+footer nav {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+footer ul li {
+    margin: 0 15px;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10pt;
+    font-family: 'Lobster', sans-serif;
+    background: #F27405;
+    color: white;
+
+}
+
+.contato .site{
+    margin: 0 auto;
+}
+
+.contato form{
+    display: flex;
+    width: 100%;
+
+}
+
+.contato form div{
+    width: 50%;
+}
+
+.contato form label{
+    color: #F27405;
+    font-family: "Anton", sans-serif;
+    font-size: 15pt;
+    line-height: 30px;
+}
+
+.contato form input{
+   width: 90%;
+   font-family: "Anton", sans-serif;
+   font-size: 12pt;
+   
+   color: #3A5D8C;
+   height: 30px;
+   margin-bottom: 10pt;
+}
+
+.contato form textarea{
+    width: 90%;
+    font-family: "Anton", sans-serif;
+    font-size: 12pt;
+    color: #3A5D8C;
+    height: 90px;
+    resize: none;
+    margin-bottom: 20pt;
+}
+
+.mesageButton{
+    display: flex;
+}
+
+.mesageButton input{
+    margin: 5px;
+}
+
+/* media queries  1200px*/
+
+@media (max-width:1024px) {
+    .site button i {
+        display: block;
+    }
+
+    .banner {
+        height: 460px;
+    }
+
+    .banner h2 {
+        top: -67%;
+    }
+
+    .servico {
+        padding: 20px 0;
+    }
+
+    .servico .conteudoServico {
+        margin-top: 20px;
+    }
+
+    .servico p {
+        font-size: 13pt;
+    }
+
+    .sobre {
+        height: 430px;
+    }
+
+    .equipe .conteudoEquipe img {
+        width: 200px;
+    }
+
+    .equipe .conteudoEquipe h3,
+    .equipe .conteudoEquipe h4 {
+        font-size: 19pt;
+        margin: 20px 0 0;
+    }
+}
+
+/* Responsividade 768px */
+
+@media(max-width: 768px) {
+
+    .servico .conteudoServico div {
+        height: 550px;
+    }
+
+    .servico h3 {
+        font-size: 16pt;
+    }
+
+    .servico img {
+        height: 190px;
+    }
+
+    .sobre p {
+        margin: 20px;
+        font-size: 12pt;
+    }
+
+    .equipe .site .conteudoEquipe {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .equipe .site .conteudoEquipe .itemEquipe {
+        width: 500px;
+    }
+
+    footer i {
+        font-size: 10px;
+    }
+
+    footer nav {
+        width: 94%;
+    }
+
+    .contato form{
+        flex-direction: column;
+    }
+
+    .contato form div{
+        width: 95%;
+        margin-left: 5%;
+    }
+
+    .contato form div div{
+        margin: 0;
+    }
+}
+
+@media(max-width: 480px) {
+    h2 {
+        font-size: 30pt;
+    }
+
+    header nav {
+        position: fixed;
+        background: #3A5D8C90;
+        right: -257px;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        z-index: 999;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition: right 0.5s ease-out;
+    }
+
+    header .abrirMenu,
+    header .fecharMenu {
+        display: block;
+    }
+
+    header nav button:last-child {
+        display: block;
+    }
+
+    header nav button:first-child {
+        margin-right: auto;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li a {
+        color: #CFCFCF;
+    }
+
+    .menuAtivo header nav {
+        right: 0;
+
+    }
+
+    header nav button i {
+        color: #CFCFCF;
+    }
+
+    header .loginNormal,
+    .banner {
+        display: none;
+    }
+
+    .servico .conteudoServico {
+        flex-direction: column;
+    }
+
+    .servico .conteudoServico div {
+        width: 90%;
+        margin: 0 auto;
+        height: 480px;
+
+    }
+
+    .sobre {
+        height: auto;
+    }
+
+    .sobre .site {
+        flex-direction: column;
+    }
+
+    .sobre .site p {
+        font-size: 11pt;
+        font-weight: bold;
+    }
+
+    .equipe .conteudoEquipe img {
+        width: 170px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    .equipe .conteudoEquipe h3,
+    .equipe .conteudoEquipe h4 {
+        font-size: 16pt;
+        margin: 0;
+    }
+
+    .equipe .site .conteudoEquipe .itemEquipe {
+        width: 100%;
+    }
+
+    .equipe .site .conteudoEquipe .itemEquipe div {
+        width: 90%;
+    }
+
+    footer {
+        padding-top: 10px;
+    }
+
+    footer .site {
+        margin: 5px auto;
+    }
+
+    footer .site div {
+        width: 60%;
+
+    }
+
+    footer div i {
+        margin: 20px 5px 20px 5px;
+    }
+
+    footer div i {
+        margin: 0 5px;
+    }
+
+    footer nav {
+        width: 40%;
+    }
+
+    footer ul {
+        flex-direction: column;
+        font-size: 12px;
+    }
+
+    footer ul li {
+        margin: 0;
+    }
+
+}

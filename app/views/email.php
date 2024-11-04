@@ -1,7 +1,7 @@
 <?php
     //reconhecer estrutura PHPMAILER
-    require_once("phpmailer/src/PHPMailer.php");
-    require_once("phpmailer/src/SMTP.php");
+    require_once("vendors/phpmailer/src/PHPMailer.php");
+    require_once("vendors/phpmailer/src/SMTP.php");
     $ok = 0;
 
     try{
@@ -45,7 +45,7 @@
             if($phpmail ->send()){
                 $ok=1;
                 echo "Mensagem enviada com sucesso!";
-                require_once("index.php");
+                require_once("home.php");
             }else{
                 $ok=2;
                 echo "Não foi possível enviar a mensagem. Erro: " .$phpmail->ErrorInfo;

@@ -4,30 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INNOVA CLICK - Agência Web</title>
+    <title><?php echo isset($titulo)?$titulo:'Contato - Innova Click';?></title>
     <!-- RESET sempre será o primeiro link -->
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="<?php BASE_URL?>vendors/css/reset.css">
     <!-- Animação banner -->
-    <link rel="stylesheet" type="text/css" href="css/slick.css" />
-    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="<?php BASE_URL?>vendors/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="<?php BASE_URL?>vendors/css/slick-theme.css" />
     <!--Animate.css  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- STYLE sempre será o ultimo link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php BASE_URL?>assets/css/style.css">
  
 </head>
  
 <body>
     <!-- INICIO DO CABEÇALHO -->
     <header>
-       <?php require_once('conteudo/topo.php')?>
+       <?php require_once('templates/topo.php')?>
     </header>
     <!-- INICIO DO CONTEÚDO -->
     <main>
        
  
        <!-- banner -->
-    <?php   require_once   ('conteudo/banner.php')?>
+    <?php   require_once  ('templates/banner.php')?>
  
  
     <!-- conteudo do contato -->
@@ -35,7 +35,7 @@
     <section class="contato">
         <article class="site">
             <h2>Formulário de Contato</h2>
-            <form action="email.php" method="post">
+            <form action="contato/enviarEmail" method="post">
                 <div>
                     <label>Nome: </label><br>
                     <input type="text" name="nome" placeholder="Digite seu nome completo" require><br>
@@ -58,18 +58,18 @@
    
     <!-- fim do conteudo contato -->
      <!-- serviço -->
-     <?php require_once('conteudo/servico.php')?>
+     <?php require_once('templates/servico.php')?>
      <!-- Sobre -->
    
  
      
     </main>
     <!-- EQUIPE -->
-        <?php require_once('conteudo/equipe.php')?>
+        <?php require_once('templates/equipe.php')?>
        
     <!-- INICIO DO RODAPÉ -->
     <footer>
-            <?php require_once('conteudo/rodape.php')?>
+            <?php require_once('templates/rodape.php')?>
     </footer>
     <!-- Scripts -->
     <script src="https://kit.fontawesome.com/25f4259441.js" crossorigin="anonymous"></script>
@@ -77,8 +77,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-3.7.1.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.4.0.min.js"></script>
     <!-- Animação banner -->
-    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="vendors/js/slick.min.js"></script>
     <!-- minha animacao -->
-    <script src=" js/animacao.js"></script>
+    <script src=" assets/js/animacao.js"></script>
 </body>
 </html>

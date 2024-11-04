@@ -8,7 +8,7 @@
                 <div class="itemEquipe">
                     <div>
                            
-                        <img src="img/equipe1.png" alt="Equipe 01">
+                        <img src="assets/img/equipe1.png" alt="Equipe 01">
  
                         <div>
                             <h3>João Silva</h3>                    
@@ -17,7 +17,7 @@
                     </div>
  
                     <div>
-                        <img src="img/equipe2.png" alt="Equipe 02">
+                        <img src="assets/img/equipe2.png" alt="Equipe 02">
  
                         <div>
                             <h3>Mariana Costa</h3>                    
@@ -26,7 +26,7 @@
                     </div>
  
                     <div>
-                        <img src="img/equipe3.png" alt="Equipe 03">
+                        <img src="assets/img/equipe3.png" alt="Equipe 03">
  
                         <div>
                             <h3>Ana Pereira</h3>                    
@@ -37,7 +37,7 @@
  
                 <div class="itemEquipe">
                         <div>
-                            <img src="img/equipe4.png" alt="Equipe 04">
+                            <img src="assets/img/equipe4.png" alt="Equipe 04">
  
                             <div>
                                 
@@ -47,7 +47,7 @@
                         </div>
  
                         <div>
-                            <img src="img/equipe5.png" alt="Equipe 05">
+                            <img src="assets/img/equipe5.png" alt="Equipe 05">
  
                             <div>
                                 <h3>Rafael Lima</h3>                    
@@ -56,7 +56,7 @@
                         </div>
  
                         <div>
-                            <img src="img/equipe6.png" alt="Equipe 06">
+                            <img src="assets/img/equipe6.png" alt="Equipe 06">
  
                             <div>
                                 <h3>Beatriz Souza</h3>                    

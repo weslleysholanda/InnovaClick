@@ -1,6 +1,6 @@
 <section class="sobre">
             <article class="site">
-                <img src="img/mesa.png" alt="sobre">
+                <img src="assets/img/mesa.png" alt="sobre">
                 <div>
                     <h2>Sobre</h2>
                     <hr>

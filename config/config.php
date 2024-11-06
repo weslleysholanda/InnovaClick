@@ -10,7 +10,13 @@ define("BASE_URL","http://localhost/innovaclick/");
 // define("DB_USER","root");       //Usuario data base
 // define("DB_PASS","");          //Senha data base 
 
+// email
+define('HOST_EMAIL','smtp.hostinger.com');
+define('PORT_EMAIL','465');
+define('USER_EMAIL','innovaclicktipi02@smpsistema.com.br');
+define('PASS_EMAIL','Senac@tipi02');
 //Sistema de autoload das classes
+
 
 spl_autoload_register(function($classe){
     if(file_exists('../app/controllers/'. $classe . '.php')){

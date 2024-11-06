@@ -15,9 +15,9 @@
             <nav>
                 <button class="fecharMenu"><i class="fa-solid fa-xmark"></i></button>
                 <ul>
-                    <li class="<?= getActiveClass('index.php') ?>"><a href="<?php BASE_URL; ?>home">Home</a></li>
-                    <li class="<?= getActiveClass('sobre.php') ?>"><a href="<?php BASE_URL; ?>sobre">Sobre</a></li>
-                    <li class="<?= getActiveClass('contato.php') ?>"><a href="<?php BASE_URL; ?>contato">Contato</a></li>
+                    <li class="<?= getActiveClass('index.php') ?>"><a href= "http://localhost/innovaclick/public/home">Home</a></li>
+                    <li class="<?= getActiveClass('sobre.php') ?>"><a href="http://localhost/innovaclick/public/sobre">Sobre</a></li>
+                    <li class="<?= getActiveClass('contato.php') ?>"><a href="http://localhost/innovaclick/public/contato">Contato</a></li>
                 </ul>
                 <button><i class="fa-solid fa-user"></i></button>
             </nav> 

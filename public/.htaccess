@@ -7,6 +7,7 @@ RewriteBase /innovaclick/public
 RewriteCond %{REQUEST_FILENAME} !-f 
  
 RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !\.(css|js|jpg|jpeg|png|gif|bmp|ico|svg|woff|woff2)$ [NC]
  
 RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
 

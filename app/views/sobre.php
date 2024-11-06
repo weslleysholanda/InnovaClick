@@ -25,7 +25,7 @@
     <!-- INICIO DO CONTEÚDO -->
     <main>
        <!-- banner -->
-    <?php   require_once   ('templates/banner.php')?>
+    <?php   require_once('templates/banner.php')?>
      <!-- Sobre -->
      <?php require_once('templates/sobre.php')?>
       <!-- conteudo missao visaop valores -->

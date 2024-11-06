@@ -7,14 +7,14 @@
     <title>INNOVA CLICK - Agência Web</title>
     <meta name="author" content="Weslley Holanda Santos">
     <!-- RESET sempre será o primeiro link -->
-    <link rel="stylesheet" href="<?php BASE_URL?>vendors/css/reset.css">
+    <link rel="stylesheet" href="vendors/css/reset.css">
     <!-- Animação -->
-    <link rel="stylesheet" type="text/css" href="<?php BASE_URL?>vendors/css/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php BASE_URL?>vendors/css/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="vendors/css/slick-theme.css"/>
     <!-- ANIMATE.JS -->
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- STYLE sempre será o ultimo link -->
-    <link rel="stylesheet" href="<?php BASE_URL?>assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     
 </head>
 
